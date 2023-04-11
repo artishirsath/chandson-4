@@ -1,0 +1,199 @@
+.firstcontainer{
+    display: flex;
+    
+   
+}
+.offer{
+    height: 35px;
+    width: 1250px;
+    text-decoration: underline;
+    font-weight: bold;
+    background-image: linear-gradient(to right ,red, green, rgb(41, 253, 94) , yellow);
+    text-align: center;
+    font-size: 30px;
+}
+.secondcontainer{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: inline-block;
+}
+li{
+    padding: 1px 20px 1px;
+}
+.item{
+    padding-bottom: 5px;
+    text-align: center;
+    background-color: rgb(64, 133, 223);
+    height: 70px;
+    width: 990px;
+    border: 2px solid rgb(66, 6, 6);
+    border-radius: 10px;
+    line-height: 18px;
+    font-size: 15px;
+}
+.thirdcontainer{
+    display: flex;
+    background-color: rgb(12, 148, 148);
+    height: 210px ;
+    width: 1250px;
+    border: 2px solid blue;
+    border-radius: 10px;
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 20px;
+    height: 200px;
+    width: 1300px;
+    text-align: center;
+}
+.box{
+    background-color: aqua;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+.box4{
+    grid-column: 2/2;
+}
+.fourthcontainer{
+    display: flex;
+    
+}
+.preformer{
+    padding-bottom: 3px;
+    height: 35px;
+    width: 1250px;
+    text-decoration: underline red;
+    font-weight: bold;
+    font-size: 20px;
+    background-image: linear-gradient(to right ,red, rgb(231, 155, 40), rgb(219, 231, 52) , rgb(228, 75, 28));
+    text-align: center;
+    
+}
+.fifthcontianer{
+    background-image: radial-gradient(closest-side at 50% 60%, blue 60%, rgb(132, 132, 243), green);
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: 1250px;
+    border: 3px solid green;
+   
+}
+.grid1{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    column-gap: 30px;
+    padding-top: 40px;
+}
+.stud{
+    border: 3px solid brown;
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    text-align: center;
+    border-radius: 15px;
+    text-decoration: underline;
+    font-size: 20px;
+    color: brown;
+    line-height: 30px;
+    font-weight: bold;
+}
+.grid2{
+    display: grid;
+    grid-template-columns: auto auto auto 100px;
+    grid-template-rows: 50px 100px 150px 30px;
+    gap: 20px;
+    height: 390px;
+    width: 1250px;
+    border: 2px solid gray;
+}
+.place{
+    background-color: white;
+}
+.place1{
+    grid-column: 1/5;
+    grid-row: 1/2;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
+.place2{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    color: white;
+    background-color: green;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
+.place3{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    color: white;
+    background-color:  rgb(19, 199, 231);
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+}
+.place4{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.place5{
+    grid-column: 1/4;
+    grid-row: 3/4;
+    color: white;
+    background-color: orangered;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 25px;
+}
+.place6{
+    grid-column: 4/5;
+    grid-row: 2/4;
+    color: white;
+    background-color:  rgb(3, 3, 43);
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+    line-height: 25px;
+}
+.place7{
+    grid-column: 1/5;
+    grid-row: 4/5;
+    background-color: aqua;
+    color: blue;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+    bottom: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
